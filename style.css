@@ -1,0 +1,35 @@
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.topBar{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.topContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

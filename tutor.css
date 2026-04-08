@@ -1,0 +1,13 @@
+.profilePicture{
+    width: 150px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+

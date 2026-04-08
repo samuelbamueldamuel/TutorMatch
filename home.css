@@ -1,0 +1,25 @@
+.subjects ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.subjects li {
+    padding: 10px;
+}
+
+.tutorCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    height: 140px;
+    overflow: hidden;
+}
+
+.rating {
+    color: gold;
+    font-size: 18px;
+}
