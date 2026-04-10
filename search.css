@@ -3,6 +3,12 @@
     gap: 15px;
     align-items: center;
     flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .filters h3 {
@@ -11,17 +17,39 @@
 }
 
 .filters select {
-    padding: 6px;
+    padding: 8px 10px;
     font-size: 14px;
-}
-.tutorCard {
+    border-radius: 8px;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 100%;
+}
+
+.tutors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.tutorCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
     text-align: center;
-    height: 140px;
-    overflow: hidden;
+    min-height: 140px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tutorCard h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.tutorCard p {
+    margin: 8px 0;
 }
 
 .rating {

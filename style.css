@@ -1,35 +1,100 @@
-.title{
-    font-size: 20px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+}
+
+.title {
+    font-size: 42px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 30px 0 10px 0;
     text-align: center;
 }
 
-.topBar{
+.topBar {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 14px;
     text-align: center;
-   
+    font-weight: bold;
 }
-.searchBar{
+
+.searchBar {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin: 20px auto;
     width: 100%;
-
+    max-width: 500px;
 }
-.topContainer{
+
+.topContainer {
     width: 100%;
     margin: 0;
     padding: 0;
 }
-.footer{
+
+.mainContent {
+    max-width: 1000px;
+    margin: 30px auto 100px auto;
+    padding: 0 20px;
+}
+
+.sectionCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+button {
     background-color: #333;
     color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input,
+select,
+textarea {
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 12px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }

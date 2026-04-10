@@ -4,37 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Session</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="book.css">
 </head>
+
 <body>
+
+    <!-- Header -->
     <div class="topContainer">
-        <div class="title">
-            <h1>Tutor Match</h1>
-        </div>
+        <h1 class="title">Tutor Match</h1>
         <div class="topBar">Book Session</div>
     </div>
 
-    <h2>Book a Session</h2>
-    <div class="tutorInfo">
-        <h3>Tutor Name: John Doe</h3>
-        <h3>Subject: Math</h3>
-    </div>
-    <div class="schedule">
-        <label for="date">Select Date:</label>
-        <input type="date" id="date" name="date">
+    <!-- Main Content -->
+    <div class="mainContent">
+
+        <div class="bookingCard">
+
+            <h2>Book a Session</h2>
+
+            <!-- Tutor Info -->
+            <div class="bookingSummary">
+                <p><strong>Tutor Name:</strong> John Doe</p>
+                <p><strong>Subject:</strong> Math</p>
+            </div>
+
+            <!-- Form -->
+            <div class="details">
+
+                <!-- Date + Time Row -->
+                <div class="bookingRow">
+
+                    <div class="fieldGroup">
+                        <label for="date">Select Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div class="fieldGroup">
+                        <label for="time">Select Time:</label>
+                        <input type="time" id="time" name="time">
+                    </div>
+
+                </div>
+
+                <!-- Session Details -->
+                <div class="fieldGroup">
+                    <label for="sessionDetails">Session Details:</label>
+                    <textarea id="sessionDetails" name="sessionDetails"
+                        placeholder="Enter any specific topics or questions you want to cover..."></textarea>
+                </div>
+
+                <!-- Confirm Button -->
+                <a href="confirmation.html">
+                    <button class="confirmButton">Confirm Booking</button>
+                </a>
+
+            </div>
+
+        </div>
 
     </div>
-    <label for="time">Select Time:</label>
-    <input type="time" id="time" name="time">
 
-    <div>
-        <h4>Session Details:</h4>
-        <input class="details" type="text" placeholder="Enter any specific topics or questions you want to cover...">
-    </div>
-    <button class="bookButton">Confirm Booking</button>
+    <!-- Footer -->
     <div class="footer">
-        <a href ="#">Home</a>
-        <a href ="#">About</a>
-        <a href ="#">Contact</a>
+        <a href="home.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
     </div>
+
+</body>
+</html>

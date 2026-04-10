@@ -1,13 +1,80 @@
-.profilePicture{
-    width: 150px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.schedule {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
+.profileCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    padding: 30px;
+    max-width: 850px;
+    margin: 0 auto;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
+.profileHeader {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profilePicture {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 18px auto;
+    border: 3px solid #ddd;
+}
+
+.profileHeader h2 {
+    margin: 0 0 10px 0;
+    font-size: 32px;
+}
+
+.profileMeta p {
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+.profileBio {
+    background-color: #f3f3f3;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 25px 0;
+}
+
+.profileBio p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.schedule {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+.schedule h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.schedule ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.schedule li {
+    margin-bottom: 8px;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.actionButtons a {
+    text-decoration: none;
+}
