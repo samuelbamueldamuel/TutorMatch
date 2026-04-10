@@ -4,34 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Confirmation</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="confirmation.css">
 </head>
+
 <body>
+
     <div class="topContainer">
-        <div class="title">
-            <h1>Tutor Match</h1>
-        </div>
+        <h1 class="title">Tutor Match</h1>
         <div class="topBar">Booking Confirmation</div>
     </div>
 
-    <div class="confirmationMessage">
-        <h2>Booking has been confirmed!</h2>
-        <image src="confirm.png" alt="Confirmation" class="confirmationImage">
+    <div class="mainContent">
+        <div class="confirmationCard">
+
+            <div class="confirmationIcon">✓</div>
+
+            <h2>Booking Confirmed</h2>
+
+            <p class="confirmationMessage">
+                Your tutoring session has been successfully scheduled.
+            </p>
+
+
+            <p class="helpText">Your booking is complete. Return home to continue browsing tutors or start another booking.</p>
+
+            <div class="confirmationDetails">
+                <p><strong>Tutor Name:</strong> John Doe</p>
+                <p><strong>Subject:</strong> Math</p>
+                <p><strong>Date:</strong> April 15, 2026</p>
+                <p><strong>Time:</strong> 3:00 PM</p>
+                <p><strong>Session Details:</strong> Algebra review and geometry concepts</p>
+            </div>
+
+            <div class="confirmationActions">
+                <a href="home.html"><button>Return Home</button></a>
+            </div>
+
+        </div>
     </div>
-    <div class="bookingDetails">
-        <h3>Booking Details:</h3>
-        <p><strong>Tutor Name:</strong> John Doe</p>
-        <p><strong>Subject:</strong> Math</p>
-        <p><strong>Date:</strong> 2024-07-01</p>
-        <p><strong>Time:</strong> 3:00 PM</p>
-        <p><strong>Session Details:</strong> Focus on algebra and geometry concepts.</p>
-    </div>
-    <button class="homeButton">Return to Home</button>
-    
+
     <div class="footer">
-        <a href ="#">Home</a>
-        <a href ="#">About</a>
-        <a href ="#">Contact</a>
+        <a href="home.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
     </div>
+
+</body>
 </html>

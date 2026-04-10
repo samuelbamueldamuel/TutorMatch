@@ -37,7 +37,7 @@ body {
 
 .mainContent {
     max-width: 1000px;
-    margin: 30px auto 100px auto;
+    margin: 40px auto 100px auto;
     padding: 0 20px;
 }
 
@@ -77,6 +77,14 @@ textarea {
 textarea {
     min-height: 100px;
     resize: vertical;
+}
+
+.helpText {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .footer {

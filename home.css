@@ -63,3 +63,13 @@
     color: gold;
     font-size: 18px;
 }
+
+.tutorLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tutorLink:hover .tutorCard {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}

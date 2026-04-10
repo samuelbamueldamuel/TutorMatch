@@ -1,0 +1,54 @@
+.confirmationCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    padding: 32px;
+    max-width: 750px;
+    margin: 0 auto;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.confirmationIcon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    background-color: #4caf50;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmationCard h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 32px;
+}
+
+.confirmationMessage {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.confirmationDetails {
+    background-color: #f3f3f3;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 24px 0;
+    text-align: left;
+}
+
+.confirmationDetails p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.confirmationActions {
+    margin-top: 20px;
+}

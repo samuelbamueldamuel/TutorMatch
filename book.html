@@ -10,32 +10,30 @@
 </head>
 
 <body>
-
     <!-- Header -->
     <div class="topContainer">
         <h1 class="title">Tutor Match</h1>
         <div class="topBar">Book Session</div>
     </div>
-
-    <!-- Main Content -->
+    <!-- Main -->
     <div class="mainContent">
 
         <div class="bookingCard">
 
             <h2>Book a Session</h2>
 
-            <!-- Tutor Info -->
             <div class="bookingSummary">
                 <p><strong>Tutor Name:</strong> John Doe</p>
                 <p><strong>Subject:</strong> Math</p>
             </div>
+            <!-- Help -->
+            <p class="helpText">
+                Need help? Select a date and time, then describe what you need help with before confirming your booking.
+            </p>
 
-            <!-- Form -->
             <div class="details">
 
-                <!-- Date + Time Row -->
                 <div class="bookingRow">
-
                     <div class="fieldGroup">
                         <label for="date">Select Date:</label>
                         <input type="date" id="date" name="date">
@@ -45,27 +43,20 @@
                         <label for="time">Select Time:</label>
                         <input type="time" id="time" name="time">
                     </div>
-
                 </div>
 
-                <!-- Session Details -->
                 <div class="fieldGroup">
                     <label for="sessionDetails">Session Details:</label>
-                    <textarea id="sessionDetails" name="sessionDetails"
-                        placeholder="Enter any specific topics or questions you want to cover..."></textarea>
+                    <textarea id="sessionDetails" name="sessionDetails" placeholder="Enter any specific topics or questions you want to cover..."></textarea>
                 </div>
-
                 <!-- Confirm Button -->
                 <a href="confirmation.html">
                     <button class="confirmButton">Confirm Booking</button>
                 </a>
 
             </div>
-
         </div>
-
     </div>
-
     <!-- Footer -->
     <div class="footer">
         <a href="home.html">Home</a>
